@@ -1,228 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link rel="icon" href="./stone.png" />
-    <link rel="stylesheet" href="./stone.css" />
 
-    <meta charset="utf-8" />
-    <meta
-      name="description"
-      content="stone.css."
-    />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+  <link rel="icon" href="./stone.png" />
+  <link rel="stylesheet" href="./stone.min.css" />
 
-    <title>stone.css</title>
-  </head>
+  <meta charset="utf-8" />
+  <meta name="description" content="An aseptict and immutable stylesheet for your web application, nothing to learn, no frameworks, just use HTML semantics tags" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <body>
-    <header>
-      <nav>
-        <a href="https://github.com/kasuken/stone.css"
-          ><img alt="stone.css" src="./stone.png" height="80"
-        /></a>
-        <ul>
-          <li>Home</li>
-          <li>
-            <a href="https://github.com/kasuken/stone.css" target="_blank"
-              >Docs</a
-            >
-          </li>
-          <li>
-            <a href="https://github.com/kasuken/stone.css" target="_blank"
-              >GitHub &nearr;</a
-            >
-          </li>
-          <li>
-            <button type="button" id="themeToggler">Toggle theme</button>
-          </li>
-        </ul>
-      </nav>
-      <h1>
-        An <u>aseptict</u> and <u>immutable</u> stylesheet for your web
-        application
-      </h1>
-      <p>
-        <b>Nothing to learn, no frameworks,</b> just use HTML semantics tags and
-        <mark>you're done ✅</mark>.
-      </p>
-      <br />
-      <p>
-        <a download="demo.html" href="./mvp.html" target="_blank"
-          ><i>Download the demo file &nearr;</i></a
-        >
-        <a download="stone.css" href="./mvp.css" target="_blank">
-          <b>Download stone.css (20kb) &nearr;</b>
-        </a>
-      </p>
-      <br /><br />
-      <p>
-        <sup>Quick setup</sup> Add this code to your HTML file:<br /><br /><code
-          >&lt;link rel="stylesheet" href="./stone.css"&gt;</code
-        >
-      </p>
-    </header>
-    <main>
-      <hr />
-      <section>
-        <header>
-          <h2>Simple, reusable components</h2>
-          <p>For a clean looking design that doesn't get in the way</p>
-        </header>
-        <aside>
-          <img
-            alt="HTML only"
-            src="https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-          />
-          <h3>HTML and You're Done</h3>
-          <p>
-            Stone.css styles your root HTML elements, so you don't need to learn a new
-            CSS framework or naming conventions.
-          </p>
-          <p>
-            <a
-              href="https://www.w3schools.com/TAGS/ref_byfunc.asp"
-              target="_blank"
-              ><em>HTML Guide &nearr;</em></a
-            >
-          </p>
-        </aside>
-        <aside>
-          <img
-            alt="Mobile friendly"
-            src="https://images.unsplash.com/photo-1623354582128-d8e232a8649e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-          />
-          <h3>Mobile-friendly UI</h3>
-          <p>
-            Stone.css is designed to look great on all browsers and devices out of the
-            box for rapid prototyping.
-          </p>
-          <p>
-            It's like an amped up CSS reset that you can toss into any project
-            to get decent styling.
-          </p>
-        </aside>
-        <aside>
-          <img
-            alt="MIT license"
-            src="https://images.unsplash.com/photo-1562412692-26406e1bf600?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"
-          />
-          <h3>MIT License</h3>
-          <p>
-            Stone.css is released under the permissive MIT license so you can freely
-            use it however you'd like.
-          </p>
-          <p>
-            That means personal projects, commercial ventures, remixes and more
-            are all welcome.
-          </p>
-        </aside>
-      </section>
-      <hr />
-      <section id="testimonials">
-        <blockquote>
-          <img
-            alt="Quote"
-            src="https://images.unsplash.com/photo-1558630926-dd2956629b42?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-            height="80"
-          /><br />
-          "Simplicity is a difficult thing to achieve."
-          <footer><br /><i>- Charlie Chaplin</i></footer>
-        </blockquote>
-      </section>
-      <hr />
-      <section id="features">
-        <header>
-          <h2>Table looks awesome</h2>
-          <p>the table are always a pain for a designer, but not for us</p>
-        </header>
+  <title>stone.css</title>
+</head>
 
-        <table>
-          <thead>
-            <tr>
-              <th>Company</th>
-              <th>Contact</th>
-              <th>Country</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Alfreds Futterkiste</td>
-              <td>Maria Anders</td>
-              <td>Germany</td>
-            </tr>
-            <tr>
-              <td>Centro comercial Moctezuma</td>
-              <td>Francisco Chang</td>
-              <td>Mexico</td>
-            </tr>
-            <tr>
-              <td>Ernst Handel</td>
-              <td>Roland Mendel</td>
-              <td>Austria</td>
-            </tr>
-            <tr>
-              <td>Island Trading</td>
-              <td>Helen Bennett</td>
-              <td>UK</td>
-            </tr>
-            <tr>
-              <td>Laughing Bacchus Winecellars</td>
-              <td>Yoshi Tannamuri</td>
-              <td>Canada</td>
-            </tr>
-            <tr>
-              <td>Magazzini Alimentari Riuniti</td>
-              <td>Giovanni Rovelli</td>
-              <td>Italy</td>
-            </tr>
-          </tbody>
-        </table>
-      </section>
-      <hr />
-      <div id="figure">
-        <header>
-          <h2>Unleash the power of your PoC</h2>
-          <p>5 minutes and your web application takes the flight</p>
-        </header>
-        <figure>
-          <img
-            alt="Tesla"
-            src="https://images.unsplash.com/photo-1560958089-b8a1929cea89?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"
-          />
-          <figcaption><i>"Testa X" - not only a car</i></figcaption>
-        </figure>
-      </div>
-      <hr />
-      <form>
-        <h2>Form example</h2>
-        <label for="selectbox">Select box</label>
-        <select id="selectbox">
-          <option value="1">Option 1</option>
-          <option value="2">Option 2</option>
-          <option value="3">Option 3</option>
-        </select>        
-        <label for="filebox">File box</label>
-        <input type="file" id="filebox" placeholder="this is fileinput" />
-        <label for="textbox">Label</label>
-        <input type="text" placeholder="this is textbox" id="textbox" />
-        <label for="textarea">Textarea</label>
-        <textarea id="textarea" placeholder="I'm a textarea"></textarea>
-        <button type="button">Button</button>
-      </form>
-    </main>
-    <footer>
-      <p>
-        Made by
-        <a href="https://www.emanuelebartolesi.com" target="_blank"
-          >Emanuele Bartolesi &nearr;</a
-        ><br />
-      </p>
-    </footer>
-    
-    <script>
-      document.querySelector("#themeToggler").onclick=()=>{
-        document.querySelector("body").classList.toggle("dark");
-      };
-    </script>
-  </body>
+<body>
+  <header>
+    <nav>
+      <a href="https://github.com/kasuken/stone.css"><img alt="stone.css" src="./stone.png" height="80" /></a>
+      <ul>
+        <li>Home</li>
+        <li>
+          <a href="https://github.com/kasuken/stone.css" target="_blank">Docs</a>
+        </li>
+        <li>
+          <a href="https://github.com/kasuken/stone.css" target="_blank">GitHub &nearr;</a>
+        </li>
+        <li>
+          <button type="button" id="themeToggler">Toggle theme</button>
+        </li>
+      </ul>
+    </nav>
+    <h1>
+      An <u>aseptict</u> and <u>immutable</u> stylesheet for your web
+      application
+    </h1>
+    <p>
+      <b>Nothing to learn, no frameworks,</b> just use HTML semantics tags and
+      <mark>you're done ✅</mark>.
+    </p>
+    <br />
+    <p>
+      <a download="demo.html" href="./mvp.html" target="_blank"><i>Download the demo file &nearr;</i></a>
+      <a download="stone.css" href="./mvp.css" target="_blank">
+        <b>Download stone.css (20kb) &nearr;</b>
+      </a>
+    </p>
+    <br /><br />
+    <p>
+      <sup>Quick setup</sup> Add this code to your HTML file:<br /><br /><code>&lt;link rel="stylesheet" href="./stone.css"&gt;</code>
+    </p>
+  </header>
+  <main>
+    <hr />
+    <section>
+      <header>
+        <h2>Simple, reusable components</h2>
+        <p>For a clean looking design that doesn't get in the way</p>
+      </header>
+      <aside>
+        <img alt="HTML only" src="https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" />
+        <h3>HTML and You're Done</h3>
+        <p>
+          Stone.css styles your root HTML elements, so you don't need to learn a new
+          CSS framework or naming conventions.
+        </p>
+        <p>
+          <a href="https://www.w3schools.com/TAGS/ref_byfunc.asp" target="_blank"><em>HTML Guide &nearr;</em></a>
+        </p>
+      </aside>
+      <aside>
+        <img alt="Mobile friendly" src="https://images.unsplash.com/photo-1623354582128-d8e232a8649e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" />
+        <h3>Mobile-friendly UI</h3>
+        <p>
+          Stone.css is designed to look great on all browsers and devices out of the
+          box for rapid prototyping.
+        </p>
+        <p>
+          It's like an amped up CSS reset that you can toss into any project
+          to get decent styling.
+        </p>
+      </aside>
+      <aside>
+        <img alt="MIT license" src="https://images.unsplash.com/photo-1562412692-26406e1bf600?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80" />
+        <h3>MIT License</h3>
+        <p>
+          Stone.css is released under the permissive MIT license so you can freely
+          use it however you'd like.
+        </p>
+        <p>
+          That means personal projects, commercial ventures, remixes and more
+          are all welcome.
+        </p>
+      </aside>
+    </section>
+    <hr />
+    <section id="testimonials">
+      <blockquote>
+        <img alt="Quote" src="https://images.unsplash.com/photo-1558630926-dd2956629b42?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" height="80" /><br />
+        "Simplicity is a difficult thing to achieve."
+        <footer><br /><i>- Charlie Chaplin</i></footer>
+      </blockquote>
+    </section>
+    <hr />
+    <section id="features">
+      <header>
+        <h2>Table looks awesome</h2>
+        <p>the table are always a pain for a designer, but not for us</p>
+      </header>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Company</th>
+            <th>Contact</th>
+            <th>Country</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Alfreds Futterkiste</td>
+            <td>Maria Anders</td>
+            <td>Germany</td>
+          </tr>
+          <tr>
+            <td>Centro comercial Moctezuma</td>
+            <td>Francisco Chang</td>
+            <td>Mexico</td>
+          </tr>
+          <tr>
+            <td>Ernst Handel</td>
+            <td>Roland Mendel</td>
+            <td>Austria</td>
+          </tr>
+          <tr>
+            <td>Island Trading</td>
+            <td>Helen Bennett</td>
+            <td>UK</td>
+          </tr>
+          <tr>
+            <td>Laughing Bacchus Winecellars</td>
+            <td>Yoshi Tannamuri</td>
+            <td>Canada</td>
+          </tr>
+          <tr>
+            <td>Magazzini Alimentari Riuniti</td>
+            <td>Giovanni Rovelli</td>
+            <td>Italy</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <hr />
+    <div id="figure">
+      <header>
+        <h2>Unleash the power of your PoC</h2>
+        <p>5 minutes and your web application takes the flight</p>
+      </header>
+      <figure>
+        <img alt="Tesla" src="https://images.unsplash.com/photo-1560958089-b8a1929cea89?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80" />
+        <figcaption><i>"Testa X" - not only a car</i></figcaption>
+      </figure>
+    </div>
+    <hr />
+    <form>
+      <h2>Form example</h2>
+      <label for="selectbox">Select box</label>
+      <select id="selectbox">
+        <option value="1">Option 1</option>
+        <option value="2">Option 2</option>
+        <option value="3">Option 3</option>
+      </select>
+      <label for="filebox">File box</label>
+      <input type="file" id="filebox" placeholder="this is fileinput" />
+      <label for="textbox">Label</label>
+      <input type="text" placeholder="this is textbox" id="textbox" />
+      <label for="textarea">Textarea</label>
+      <textarea id="textarea" placeholder="I'm a textarea"></textarea>
+      <button type="button">Button</button>
+    </form>
+  </main>
+  <footer>
+    <p>
+      Made by
+      <a href="https://www.emanuelebartolesi.com" target="_blank">Emanuele Bartolesi &nearr;</a><br />
+    </p>
+  </footer>
+
+  <script>
+    document.querySelector("#themeToggler").onclick = () => {
+      document.querySelector("body").classList.toggle("dark");
+    };
+  </script>
+</body>
+
 </html>
